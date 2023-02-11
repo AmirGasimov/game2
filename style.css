@@ -1,0 +1,86 @@
+* {
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+.gameName {
+  text-align: center;
+  font-size: 48px;
+}
+
+.scoreBoard {
+  font-size: 36px;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+  border: 2px black solid;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.badge {
+  background-color: yellow;
+  border-radius: 15px;
+  padding: 5px;
+  width: 60px;
+}
+
+.user {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.comp {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  border: 2px black solid;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: yellow;
+  transition: 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.choice + .choice {
+  margin-left: 15px;
+}
+
+.choiceImg {
+  width: 50px;
+}
+
+.scissorsImg {
+  margin-top: 15px;
+}
+
+.paperImg {
+  margin-top: 5px;
+}
+
+.resultText {
+  text-align: center;
+  font-size: 36px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 24px;
+}

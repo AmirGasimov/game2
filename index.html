@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="gameName">Rock Scissors Paper</h1>
+      </header>
+
+      <div class="scoreBoard">
+        <div class="badge user">
+          <p>You</p>
+        </div>
+        <div class="badge comp">
+          <p>Comp</p>
+        </div>
+        <span class="scoreNumb" id="playerScore">0</span>:<span
+          class="scoreNumb"
+          id="compScore"
+          >0</span
+        >
+      </div>
+
+      <div class="choices">
+        <div class="choice" id="rock">
+          <img class="choiceImg" src="images/rock.png" alt="rock sign" />
+        </div>
+        <div class="choice" id="paper">
+          <img
+            class="choiceImg paperImg"
+            src="images/paper.png"
+            alt="paper sign"
+          />
+        </div>
+        <div class="choice" id="scissors">
+          <img
+            class="choiceImg scissorsImg"
+            src="images/scissors.png"
+            alt="scissors sign"
+          />
+        </div>
+      </div>
+
+      <div class="resultText">
+        <p>Paper beats rock: You win!</p>
+      </div>
+
+      <footer class="footer">
+        <p>Make your choice!</p>
+      </footer>
+
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
